@@ -1,0 +1,285 @@
+/*/               A VR Experience to Nvy                   /*/
+/*/              Virtual Reality Template                  /*/
+/*
+|       
+|       
+| <link href="https://fonts.googleapis.com/css?family=Audiowide|Righteous" rel="stylesheet">
+
+font-family: 'Audiowide', cursive;
+font-family: 'Righteous', cursive;
+|
+|
+|_______________________________________________________*/
+
+html {
+font-family: 'Righteous', cursive;
+color: #565656;
+}
+
+
+/*/                             HEADER                          /*/
+ 
+/*                        Main Image:                        */
+.vrGreen {
+    width: 100%;
+    height: 650px;
+    margin: 0;
+    padding: 0;
+    border-bottom: .3em outset rgba(82, 82, 82,.5);
+    opacity: .8;
+}
+
+
+/*                        Title                               */
+
+.vrTitle {
+    font-family: 'Audiowide', cursive;
+    margin: -2em;
+    margin-top: -2.7em;
+    text-align: center;
+    display: block;
+    font-size: 5em;
+    color: purple;
+    text-shadow: 2px 2px white, 4px 4px white, 5px 5px purple, 7px 7px grey;
+    font-variant: small-caps;
+}
+
+.vrSubTitle {
+    font-family: 'Audiowide', cursive;
+    margin-top: -25.5em;
+    margin-left: -1.1em;
+    transform: rotate(-20deg);
+    font-size: 1.5em;
+    color: rgba(255, 165, 0,.6);
+    margin-bottom: 14em;
+}
+
+
+/*                   Be the Matrix      */
+.description {
+    text-align: center;
+    font-size: 5em;
+    margin-top: 6.5em;
+    font-variant: small-caps;
+}
+
+
+/*/                          NAVIGATION                          /*/
+nav {
+    border: 2em outset #4bc259;
+    margin-top: -.9em;
+    border-bottom: .3em outset rgba(82, 82, 82,.5);
+}
+
+main {
+     margin: 1em;
+     padding: 1em;
+}
+    
+.mainNav nav, ul {
+    font-family: 'Righteous', cursive;
+    display: block;
+    overflow: hidden;
+    font-variant: small-caps;
+    text-decoration: none;
+    float: left;
+    margin-left: 32%;
+    margin-top: -2.3em;
+}
+
+#mainNavLi li, a {
+    float: left;
+    font-variant: small-caps;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    padding-left: .2em;
+    font-size: 1.4em;
+    color: white;
+    text-shadow: 2px 2px black;
+    border-right: .3px inset;
+    padding-right: 10px;
+}
+
+/*/               ARTICLES                  /*/
+/*                  Frame                     */
+
+.frame {
+    margin: auto;
+    width: 75%;
+}
+
+hr {
+    font-size: 2em;
+    border: 2.5px inset #f3f3f3;
+}
+
+h2 {
+    text-shadow: 2px 2px #4bc259, -1px -1px white;
+}
+
+/*/                             IMAGES                              /*/
+/* image 2 */
+
+.vr2 {
+    margin-top: -3.8em;
+    width: 320px;
+    max-height:250px;
+    float: left;
+
+}
+
+/* image 2 */
+
+.vr3 {
+    margin-top: -5em;
+    width: 350px;
+    border: 1px outset black;
+    max-height: 250px;
+    float: right;
+    border-radius: 7em;
+    box-shadow: -7px -5px #565656;
+}
+
+
+/*                  Leading Article                             */
+.leadSec {
+    margin-bottom: .5em;
+}
+
+.about {
+    text-align: right;
+}
+
+
+/*                  Aside                            */
+aside {
+    float: right;
+    display: block;
+    overflow: hidden;
+    text-align: right;
+
+}
+
+.emailUs {
+    float: left;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+
+}
+
+.resources {
+    float: right;
+    display: block;
+    overflow: hidden;
+    text-align: right;
+    max-width: 30%;
+    
+}
+.resources h3 {
+    text-align: center;
+}
+
+.resources li {
+    text-align: left;
+    margin-left: 5em;
+}
+
+
+
+/*                 Article                            */
+
+article {
+    font-weight: 300;
+    margin-bottom:  2em;
+}
+
+blockquote {
+    color: #4bc259;
+    font-style: italic;
+    font-size: small;
+    margin-right: -5em;
+    position: relative;
+    animation: myquote 35s infinite;
+}
+
+/*
+@keyframes myquote {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+}  */
+
+@keyframes myquote {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+/*/  FOOTER /*/
+
+
+    /* Footer css */
+
+    /*/             FOOTER         /*/
+    
+    /*/             FOOTER         /*/
+    
+    .footer {
+        
+           font-family: 'Playfair Display', serif;
+           color:white;
+           padding-bottom: 1em;
+           text-align: center;
+           font-size: 1.3em;
+           font-weight: 500;
+           background-color: #525252;
+           text-shadow: .2px .3px white;
+           line-height: 1.5px;
+           letter-spacing: 7px;
+           width: 100%;
+           clear: both;
+
+       }
+       
+       .footerLine {   
+       
+           border: .2em outset #4bc259;
+           margin-bottom: .05px;
+           padding: 0;
+       }       
+       
+       footer a {
+       
+           text-decoration: none;
+           color:white;
+       }
+       
+       footer a:hover, .sloganB {
+       
+           color: #4bc259;
+           font-style: italic;
+       }
+       
+       /* Social Icons & Contact */
+       
+       img.social {
+           padding-top: 35px;
+           overflow: hidden;
+       }
+       
+       p.contactMe {
+           font-family: 'Playfair Display', serif;
+           font-weight:    500;
+       }
+
+       .footerLineBottom {   
+               border: .2em outset #4bc259;
+               margin: 0;
+               padding: 0;
+           }       
+       
