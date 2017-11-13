@@ -1,0 +1,12 @@
+// These files will not be tracked
+
+# Internal Files
+.vscode/*
+/.vscode*
+
+
+# Git Ignore Folder
+
+
+
+
